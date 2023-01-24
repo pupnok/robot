@@ -19,13 +19,6 @@ basic.forever(function () {
     basic.pause(500)
 })
 basic.forever(function () {
-    Tinybit.CarCtrlSpeed(Tinybit.CarState.Car_Run, 0)
-    basic.pause(1000)
-    Tinybit.CarCtrlSpeed(Tinybit.CarState.Car_Run, 99)
-    basic.pause(5000)
-    Tinybit.CarCtrlSpeed(Tinybit.CarState.Car_Run, 255)
-})
-basic.forever(function () {
     music.playMelody("G D G D G D G D ", 120)
     music.setVolume(120)
 })
